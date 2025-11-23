@@ -31,7 +31,7 @@ const socialLink = [
   },
   {
     title: "Facebook",
-    href: "https://www.youtube.com/@reactjsBD",
+    href: "https://www.facebook.com/royshopb",
     icon: <Facebook className="w-5 h-5" />,
   },
   {
