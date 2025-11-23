@@ -40,7 +40,7 @@ const HomeBanner = async () => {
                     50% Off
                   </span>
                   <span className="block text-2xl font-medium text-gray-700">
-                    On first purchase
+                    10% discount for your first order
                   </span>
                 </Title>
               </div>
