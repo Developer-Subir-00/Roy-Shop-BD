@@ -21,7 +21,7 @@ const socialLink = [
   },
   {
     title: "Github",
-    href: "https://www.youtube.com/@reactjsBD",
+    href: "https://github.com/Developer-Subir-00/Roy-Shop-BD/tree/main",
     icon: <Github className="w-5 h-5" />,
   },
   {
