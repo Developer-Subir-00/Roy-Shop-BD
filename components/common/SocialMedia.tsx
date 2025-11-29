@@ -16,7 +16,7 @@ interface Props {
 const socialLink = [
   {
     title: "Youtube",
-    href: "https://www.youtube.com/@reactjsBD",
+    href: "https://www.youtube.com/@royshopdb",
     icon: <Youtube className="w-5 h-5" />,
   },
   {
