@@ -58,9 +58,9 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://shopcartpro.reactbd.org",
-    siteName: "ShopCart",
-    title: "ShopCart - Your Trusted Online Shopping Destination",
+    url: "https://roy-shop-bd.vercel.app",
+    siteName: "RoyShopBD",
+    title: "RoyShopBD - Your Trusted Online Shopping Destination",
     description:
       "Discover amazing products at ShopCart, your trusted online shopping destination for quality items and exceptional customer service.",
     images: [
