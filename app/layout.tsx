@@ -28,10 +28,10 @@ const opensans = localFont({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://shopcartpro.reactbd.org"),
+  metadataBase: new URL("https://roy-shop-bd.vercel.app/"),
   title: {
     template: "%s | ShopCart - Premium Online Shopping",
-    default: "ShopCart - Your Trusted Online Shopping Destination",
+    default: "RoyShopBD - Your Trusted Online Shopping Destination",
   },
   description:
     "Discover amazing products at ShopCart, your trusted online shopping destination for quality items and exceptional customer service. Shop electronics, fashion, home goods and more with fast delivery.",
@@ -58,9 +58,9 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://shopcartpro.reactbd.org",
-    siteName: "ShopCart",
-    title: "ShopCart - Your Trusted Online Shopping Destination",
+    url: "https://roy-shop-bd.vercel.app",
+    siteName: "RoyShopBD",
+    title: "RoyShopBD - Your Trusted Online Shopping Destination",
     description:
       "Discover amazing products at ShopCart, your trusted online shopping destination for quality items and exceptional customer service.",
     images: [

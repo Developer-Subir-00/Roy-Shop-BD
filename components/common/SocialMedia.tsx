@@ -16,12 +16,12 @@ interface Props {
 const socialLink = [
   {
     title: "Youtube",
-    href: "https://www.youtube.com/@reactjsBD",
+    href: "https://www.youtube.com/@royshopdb",
     icon: <Youtube className="w-5 h-5" />,
   },
   {
     title: "Github",
-    href: "https://www.youtube.com/@reactjsBD",
+    href: "https://github.com/Developer-Subir-00/Roy-Shop-BD/tree/main",
     icon: <Github className="w-5 h-5" />,
   },
   {
