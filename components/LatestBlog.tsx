@@ -11,7 +11,7 @@ const LatestBlog = async () => {
   const blogs = await getLatestBlogs();
 
   return (
-    <Container className="mt-16 lg:mt-24">
+    <Container className="mt-16 lg:mt-12">
       {/* Header Section */}
       <div className="text-center mb-12">
         <div className="inline-flex items-center gap-3 mb-4">

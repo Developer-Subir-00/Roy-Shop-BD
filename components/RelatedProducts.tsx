@@ -119,11 +119,11 @@ const RelatedProducts = memo(({ relatedProducts }: RelatedProductsProps) => {
                   {/* Price */}
                   <div className="flex items-center gap-2">
                     <span className="text-lg font-bold text-shop_dark_green">
-                      ${product?.price}
+                      ৳{product?.price}
                     </span>
                     {originalPrice && (
-                      <span className="text-sm text-gray-500 line-through">
-                        ${originalPrice}
+                      <span className="text-lg text-light-orange line-through">
+                        ৳{originalPrice}
                       </span>
                     )}
                   </div>

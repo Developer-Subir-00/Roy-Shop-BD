@@ -231,7 +231,7 @@ const ShopFeatures = () => {
   };
 
   return (
-    <Container className="my-16 lg:my-24">
+    <Container className="my-16 lg:my-12">
       {/* Header Section */}
       <div className="text-center mb-12">
         <div className="inline-flex items-center gap-3 mb-4">

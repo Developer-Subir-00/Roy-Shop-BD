@@ -183,7 +183,7 @@ const ProductGrid = () => {
   );
 
   return (
-    <Container className="flex flex-col lg:px-0 mt-16 lg:mt-24">
+    <Container className="flex flex-col mt-16 lg:mt-12">
       {/* Header Section */}
       <div className="text-center mb-8">
         <div className="inline-flex items-center gap-3 mb-4">

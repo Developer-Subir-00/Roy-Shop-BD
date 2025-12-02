@@ -8,9 +8,9 @@ interface Props {
 
 const PriceFormatter = memo(({ amount, className }: Props) => {
   const formattedPrice = new Number(amount).toLocaleString("en-US", {
-    currency: "USD",
+    currency: "BDT",
     style: "currency",
-    minimumFractionDigits: 2,
+    minimumFractionDigits: 0,
   });
   return (
     <span

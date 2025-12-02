@@ -37,7 +37,7 @@ const HomeBanner = async () => {
                 <Title className="text-shop_dark_green font-bold text-4xl sm:text-5xl leading-tight animate-fadeInUp delay-200">
                   <span className="block">Grab Up to</span>
                   <span className="block bg-gradient-to-r from-shop_light_green to-shop_dark_green bg-clip-text text-transparent animate-shimmer">
-                    50% Off
+                    25% Off
                   </span>
                   <span className="block text-2xl font-medium text-gray-700">
                     10% discount for your first order
@@ -138,7 +138,7 @@ const HomeBanner = async () => {
                 </div>
 
                 <div className="absolute -bottom-4 -left-4 w-16 h-16 bg-gradient-to-br from-shop_light_green to-shop_dark_green rounded-full flex items-center justify-center shadow-lg animate-bounce delay-1000">
-                  <span className="text-white font-bold text-sm">50%</span>
+                  <span className="text-white font-bold text-sm">25%</span>
                 </div>
               </div>
             </div>
