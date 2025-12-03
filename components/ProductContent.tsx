@@ -96,9 +96,6 @@ const ProductContent = ({
               <h1 className="text-3xl lg:text-4xl font-bold text-shop_dark_green leading-tight">
                 {product?.name}
               </h1>
-              <p className="text-lg text-dark-text leading-relaxed">
-                {product?.description}
-              </p>
 
               {/* Enhanced Rating Display */}
               {totalReviews > 0 ? (
@@ -142,13 +139,13 @@ const ProductContent = ({
               <PriceView
                 price={product?.price}
                 discount={product?.discount}
-                className="text-2xl font-bold"
+                className="text-xl font-bold"
               />
 
               {/* Enhanced Stock Status */}
               <div className="flex items-center gap-3">
                 <Badge
-                  className={`text-sm font-semibold ${
+                  className={`text-xl font-semibold ${
                     product?.stock === 0
                       ? "bg-red-100 text-red-700 hover:bg-red-100"
                       : product?.stock && product.stock < 10
@@ -243,7 +240,7 @@ const ProductContent = ({
 
         {/* Product Details Section */}
         <ProductSectionWrapper delay={0.6}>
-          <ProductsDetails />
+          <ProductsDetails product={product}/>
         </ProductSectionWrapper>
 
         {/* Trust Indicators & Guarantees */}
