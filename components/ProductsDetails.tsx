@@ -18,8 +18,8 @@ const ProductsDetails = ({
         <div className="prose prose-sm max-w-none text-gray-600">
           <p className="mb-4">
             <p className="text-lg text-dark-text leading-relaxed">
-                {product?.description}
-              </p>
+              {product?.description}
+            </p>
           </p>
         </div>
       </div>

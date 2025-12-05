@@ -50,13 +50,18 @@ const RelatedProducts = memo(({ relatedProducts }: RelatedProductsProps) => {
                 {/* Product Image */}
                 <div className="relative aspect-square mb-4 overflow-hidden rounded-lg bg-gray-100">
                   {imageUrl ? (
-                    <Image
-                      src={imageUrl}
-                      alt={"productImage"}
-                      fill
-                      className="object-cover group-hover:scale-105 transition-transform duration-300"
-                      sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 25vw"
-                    />
+                    <Link
+                      href={`/product/${product?.slug?.current}`}
+                      className="block hover:text-shop_light_green transition-colors"
+                    >
+                      <Image
+                        src={imageUrl}
+                        alt={"productImage"}
+                        fill
+                        className="object-cover group-hover:scale-105 transition-transform duration-300"
+                        sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 25vw"
+                      />
+                    </Link>
                   ) : (
                     <div className="w-full h-full bg-gradient-to-br from-gray-200 to-gray-300 flex items-center justify-center">
                       <span className="text-gray-500 text-sm">
@@ -89,15 +94,10 @@ const RelatedProducts = memo(({ relatedProducts }: RelatedProductsProps) => {
 
                 {/* Product Info */}
                 <div className="space-y-2">
-                  <Link
-                    href={`/product/${product?.slug?.current}`}
-                    className="block hover:text-shop_light_green transition-colors"
-                  >
-                    <h3 className="font-semibold text-shop_dark_green line-clamp-2 text-sm">
-                      {product?.name}
-                    </h3>
-                  </Link>
-
+                  <h3 className="font-semibold text-shop_dark_green line-clamp-2 text-sm">
+                    {product?.name}
+                  </h3>
+                  
                   {/* Rating */}
                   <div className="flex items-center gap-1">
                     <div className="flex items-center">

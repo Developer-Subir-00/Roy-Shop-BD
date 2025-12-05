@@ -93,7 +93,7 @@ const ProductContent = ({
                   )}
                 </Badge>
               )}
-              <h1 className="text-3xl lg:text-4xl font-bold text-shop_dark_green leading-tight">
+              <h1 className="text-2xl lg:text-3xl font-bold text-shop_dark_green leading-tight">
                 {product?.name}
               </h1>
 
