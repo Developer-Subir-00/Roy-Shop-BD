@@ -9,6 +9,7 @@ import { Product } from "@/sanity.types";
 import { urlFor } from "@/sanity/lib/image";
 import AddToCartButton from "./AddToCartButton";
 import FavoriteButton from "./FavoriteButton";
+import { image } from "@/sanity/image";
 
 interface RelatedProductsProps {
   currentProduct: Product;
@@ -54,10 +55,9 @@ const RelatedProducts = memo(({ relatedProducts }: RelatedProductsProps) => {
                       href={`/product/${product?.slug?.current}`}
                       className="block hover:text-shop_light_green transition-colors"
                     >
-                      <Image
+                      <img
                         src={imageUrl}
                         alt={"productImage"}
-                        fill
                         className="object-cover group-hover:scale-105 transition-transform duration-300"
                         sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 25vw"
                       />
