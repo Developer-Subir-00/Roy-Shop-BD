@@ -108,7 +108,7 @@ export function CheckoutButton({ cart, selectedAddress }: CheckoutButtonProps) {
     }, 0);
 
     const currentSubtotal = grossSubtotal - totalDiscount;
-    const shipping = currentSubtotal > 10000 ? 0 : 150;
+    const shipping = currentSubtotal > 100 ? 0 : 10;
     const tax =
       currentSubtotal * (parseFloat(process.env.TAX_AMOUNT || "0") || 0);
     const orderTotal = currentSubtotal + shipping + tax;
