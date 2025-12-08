@@ -90,7 +90,7 @@ export function CheckoutContent() {
   const businessDiscount = userProfile?.isBusiness ? currentSubtotal * 0.02 : 0;
   const finalSubtotal = currentSubtotal - businessDiscount;
 
-  const shipping = finalSubtotal > 100 ? 0 : 10;
+  const shipping = finalSubtotal > 9999 ? 0 : 150;
   const tax = finalSubtotal * (parseFloat(process.env.TAX_AMOUNT || "0") || 0);
   const total = finalSubtotal + shipping + tax;
 

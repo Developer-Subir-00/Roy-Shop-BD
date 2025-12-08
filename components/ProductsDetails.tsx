@@ -16,10 +16,8 @@ const ProductsDetails = ({
           Description
         </h2>
         <div className="prose prose-sm max-w-none text-gray-600">
-          <p className="mb-4">
-            <p className="text-lg text-dark-text leading-relaxed">
-              {product?.description}
-            </p>
+          <p className="mb-4 text-lg text-dark-text leading-relaxed">
+            {product?.description}
           </p>
         </div>
       </div>

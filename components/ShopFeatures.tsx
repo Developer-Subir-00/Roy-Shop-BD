@@ -60,7 +60,7 @@ const ShopFeatures = () => {
     {
       icon: Truck,
       title: "Free Delivery",
-      description: "Free shipping on orders over $50",
+      description: "Free shipping on orders over ৳10000",
       color: "from-green-500 to-green-600",
       bgColor: "bg-green-50",
       iconColor: "text-green-600",

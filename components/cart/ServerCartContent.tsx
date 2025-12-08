@@ -108,7 +108,7 @@ export function ServerCartContent({
   const grossSubtotal = getSubTotalPrice(); // Gross amount (before discount)
   const totalDiscount = getTotalDiscount(); // Total discount amount
   const currentSubtotal = grossSubtotal - totalDiscount; // After discount
-  const shipping = currentSubtotal > 100 ? 0 : 10;
+  const shipping = currentSubtotal > 9999 ? 0 : 150;
   const tax =
     currentSubtotal * (parseFloat(process.env.TAX_AMOUNT || "0") || 0);
   const finalTotal = currentSubtotal + shipping + tax;
@@ -327,9 +327,9 @@ export function ServerCartContent({
                 🎉 You got free shipping!
               </p>
             )}
-            {currentSubtotal < 100 && (
+            {currentSubtotal < 9999 && (
               <p className="text-sm text-muted-foreground">
-                Add <PriceFormatter amount={100 - currentSubtotal} /> more for
+                Add <PriceFormatter amount={10000 - currentSubtotal} /> more for
                 free shipping
               </p>
             )}
