@@ -7,7 +7,7 @@ export const headerData = [
 ];
 
 export const productType = [
-  { title: "Gadget", value: "gadget" },
+  { title: "Cosmetics", value: "cosmetics" },
   { title: "Appliances", value: "appliances" },
   { title: "Refrigerators", value: "refrigerators" },
   { title: "Others", value: "others" },
