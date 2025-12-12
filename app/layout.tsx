@@ -34,10 +34,12 @@ export const metadata: Metadata = {
     default: "RoyShopBD - Your Trusted Online Shopping Destination",
   },
   description:
-    "Discover amazing products at ShopCart, your trusted online shopping destination for quality items and exceptional customer service. Shop electronics, fashion, home goods and more with fast delivery.",
+    "Discover amazing products at RoyShopBD, your trusted online shopping destination for quality items and exceptional customer service. Shop electronics, fashion, home goods and more with fast delivery.",
   keywords: [
-    "online shopping",
+    "royshopbd",
+    "RoyShopBD",
     "e-commerce",
+    "online shopping",
     "buy online",
     "shop online",
     "electronics",
@@ -47,9 +49,9 @@ export const metadata: Metadata = {
     "discounts",
     "ShopCart",
   ],
-  authors: [{ name: "ShopCart" }],
-  creator: "ShopCart",
-  publisher: "ShopCart",
+  authors: [{ name: "RoyShopBD" }],
+  creator: "RoyShopBD",
+  publisher: "RoyShopBD",
   formatDetection: {
     email: false,
     address: false,
@@ -68,17 +70,17 @@ export const metadata: Metadata = {
         url: "/og-image.jpg",
         width: 1200,
         height: 630,
-        alt: "ShopCart Online Store",
+        alt: "RoyShopBD Online Store",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "ShopCart - Your Trusted Online Shopping Destination",
+    title: "RoyShopBD - Your Trusted Online Shopping Destination",
     description:
       "Discover amazing products at ShopCart, your trusted online shopping destination for quality items and exceptional customer service.",
     images: ["/og-image.jpg"],
-    creator: "@shopcart",
+    creator: "@royshopbd",
   },
   robots: {
     index: true,
