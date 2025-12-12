@@ -121,7 +121,7 @@ export interface Product {
     };
   };
   status: "new" | "hot" | "sale";
-  variant?: "gadget" | "appliances" | "refrigerators" | "others";
+  variant?: "cosmetics" | "appliances" | "refrigerators" | "others";
   featured: boolean;
   isFeatured?: boolean;
   images?: Array<{
