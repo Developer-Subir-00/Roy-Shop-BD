@@ -48,6 +48,10 @@ const RelatedProducts = memo(({ relatedProducts }: RelatedProductsProps) => {
             >
               <CardContent className="p-4">
                 {/* Product Image */}
+                <Link
+                    href={`/product/${product?.slug?.current}`}
+                    className="block hover:text-shop_light_green transition-colors"
+                  >
                 <div className="relative aspect-square mb-4 overflow-hidden rounded-lg bg-gray-100">
                   {imageUrl ? (
                     <Image
@@ -86,7 +90,7 @@ const RelatedProducts = memo(({ relatedProducts }: RelatedProductsProps) => {
                     </div>
                   </div>
                 </div>
-
+                </Link>
                 {/* Product Info */}
                 <div className="space-y-2">
                   <Link
